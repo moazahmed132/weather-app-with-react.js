@@ -1,0 +1,106 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  color: #ececec;
+  font-family: fantasy;
+  background: rgb(4,3,66);
+  background: linear-gradient(90deg, rgba(4,3,66,1) 0%, rgba(9,70,121,1) 0%, rgba(0,55,69,1) 0%, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 100%);
+  text-align: center;
+}
+
+h1{
+  font-size: xxx-large;
+  color: #dbdbdb;
+  margin-bottom: 25px;
+
+}
+.App{
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.form{
+  display: flex;
+  flex-direction: column;
+}
+
+.form input{
+  margin-bottom: 30px;
+  width: 82%;
+  border: none;
+  border-bottom: 2px solid #000;
+  background: none;
+  padding: 10px;
+  outline: none;
+  font-size: 22px;
+  color: #dbdbdb;
+  font-weight: bold;
+}
+.myButton {
+  margin-bottom: 30px;
+  opacity: .8;
+   width: 90%;
+   float: right;
+	background-color:#202040;
+  border-radius:28px;
+  border-color:#202040 ;
+	cursor:pointer;
+	color:#c9baba;
+	font-size:19px;
+	padding:7px 11px;
+}
+.weather{
+  display: flex;
+  flex-direction: column;
+}
+.city-country{
+  display: flex;
+  align-items: center;
+  font-size: xx-large;
+  margin-bottom: 10px;
+}
+.country{
+  margin-left: 10px;
+}
+.main-description{
+  font-size: xx-large;
+  margin-bottom: 10px;
+}
+.temperature{
+  font-size: xx-large;
+  margin-bottom: 10px;
+  position: relative;
+}
+.temperature span{
+  font-size: large;
+  margin-bottom: 10px;
+  position: absolute;
+  
+}
+.min-max{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-size: x-large;
+}
+
+.min-temperature, .max-temperature{
+  position: relative;
+  margin-bottom: 10px;
+
+}
+.min-temperature span, .max-temperature span{
+  font-size: small;
+  margin-bottom: 13px;
+  position: absolute;
+
+}
+.description{
+  font-size: large;
+}
