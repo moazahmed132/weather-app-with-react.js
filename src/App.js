@@ -4,9 +4,7 @@ import Nav from './Components/Nav/Nav'
 import Home from './Components/Home/Home'
 import { BrowserRouter, Route } from 'react-router-dom';
 
-
 class App extends Component {
-
   render() {
     return (
       <BrowserRouter >
@@ -15,9 +13,6 @@ class App extends Component {
           <Route path="/weather" component={WeatherAll} />
         </div>
         <Nav />
-
-
-
       </BrowserRouter>
     );
   }

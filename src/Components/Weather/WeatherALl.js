@@ -3,7 +3,6 @@ import Weather from './Weather';
 import Form from './Form';
 import Nav from '../Nav/Nav'
 const API_KEY = "3fc9ac45d4145b121b1ccc5fc9978ed9";
-
 class WeatherAll extends Component {
   state = {
     temperature: '',
@@ -53,7 +52,6 @@ class WeatherAll extends Component {
         error: 'please enter valid data'
       })
     }
-
   }
   render() {
     return (

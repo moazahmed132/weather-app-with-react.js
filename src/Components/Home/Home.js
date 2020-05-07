@@ -10,7 +10,6 @@ const Home = () => {
         <h1 className="box-title">I am</h1>
         <br />
         <h1 className="box-title">Moaz Ahmed</h1>
-
       </div>
     </div>
   )

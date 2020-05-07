@@ -121,15 +121,10 @@ h4{
 .description{
   font-size: large;
 }
-
-
 .list{
 display: flex;
 flex-direction: row;
-
 }
-
-
 ul a {
 
   text-decoration: none;
@@ -149,18 +144,12 @@ ul a {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
-
-
-
-
 }
 .box-content{
   margin-top: 15%;
   margin-right: 20%;
-
 }
 .box-title{
-  z-index: -1;
-
+color: #1b1b2f;
 
 }
